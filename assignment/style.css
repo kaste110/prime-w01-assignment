@@ -4,11 +4,11 @@ body {
   }
 /* Make the header and footer a different color from the background */
 
-.header { color: #0000ff;
+.header { background-color: #0000ff;
 
 }
 
-.footer { color: #00cc00;
+.footer { background-color: #00cc00;
 
 }
 
@@ -22,15 +22,19 @@ h1 {
 
 p { color: #cc33ff;
     font-style: italic;
+    font-size: 24px;
 }
 
 /* Put a border around your image */
-.image {
+img {
   border-style: ridge;
   border-width: 5px;
   border-color: grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 /* Change the font-family of your list */
 ul {
-  font-family: Arial, Geneva, Helvetica;
+  font-family: Courier, Geneva, Helvetica;
 }
